@@ -33,7 +33,13 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 Seq[Any](format.raw/*2.1*/("""
 """),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
   """),format.raw/*4.3*/("""<h1>Welcome to Play!</h1>
-""")))}),format.raw/*5.2*/("""
+    <form action="http://google.com">
+    <input type="submit" value="Go to Google" />
+</form>
+</form>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-d62046a8-2e8b-49c6-8e53-e8b66037e8a5"></div>
+""")))}),format.raw/*11.2*/("""
 """))
       }
     }
@@ -50,11 +56,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Mon Feb 25 12:28:21 GMT 2019
+                  DATE: Mon Feb 25 14:09:48 GMT 2019
                   SOURCE: /Users/jamesdewinton/Projects/java/todo_list/app/views/index.scala.html
-                  HASH: 101fa511ddebe89cb9bf324b96e228b7b59b8d04
-                  MATRIX: 941->1|1037->4|1064->6|1095->29|1134->31|1163->34|1219->61
-                  LINES: 28->1|33->2|34->3|34->3|34->3|35->4|36->5
+                  HASH: ced9e69816082852b195488f81671f54a31ffb21
+                  MATRIX: 941->1|1037->4|1064->6|1095->29|1134->31|1163->34|1463->304
+                  LINES: 28->1|33->2|34->3|34->3|34->3|35->4|42->11
                   -- GENERATED --
               */
           
